@@ -1,0 +1,275 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.5)  17 DEC 2021 17:02
+entering extended mode
+**./AER1403_Project2_report.tex
+(AER1403_Project2_report.tex
+LaTeX2e <2021-11-15>
+L3 programming layer <2021-11-22>
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count194
+\lst@gtempboxa=\box50
+\lst@token=\toks18
+\lst@length=\count195
+\lst@currlwidth=\dimen149
+\lst@column=\count196
+\lst@pos=\count197
+\lst@lostspace=\dimen150
+\lst@width=\dimen151
+\lst@newlines=\count198
+\lst@lineno=\count199
+\lst@maxwidth=\dimen152
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count266
+\lst@skipnumbers=\count267
+\lst@framebox=\box51
+)
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box52
+) (AER1403_Project2_report.aux)
+\openout1 = `AER1403_Project2_report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(61.42856pt, 491.43787pt, 61.42857pt)
+* v-part:(T,H,B)=(63.59662pt, 635.97841pt, 95.39496pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=491.43787pt
+* \textheight=635.97841pt
+* \oddsidemargin=-10.84143pt
+* \evensidemargin=-10.84143pt
+* \topmargin=-45.67337pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count269
+\scratchdimen=\dimen153
+\scratchbox=\box53
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen154
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks20
+)
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\rutvi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count275
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 17.
+<tot_ingle_comp.png, id=1, 526.96875pt x 395.22656pt>
+File: tot_ingle_comp.png Graphic file (type png)
+<use tot_ingle_comp.png>
+Package pdftex.def Info: tot_ingle_comp.png  used on input line 29.
+(pdftex.def)             Requested size: 569.05511pt x 426.8142pt.
+
+Overfull \hbox (77.61725pt too wide) in paragraph at lines 28--31
+ [] 
+ []
+
+<convergence study.pdf, id=2, 614.295pt x 794.97pt>
+File: convergence study.pdf Graphic file (type pdf)
+<use convergence study.pdf>
+Package pdftex.def Info: convergence study.pdf  used on input line 39.
+(pdftex.def)             Requested size: 569.05511pt x 736.47598pt.
+
+Overfull \hbox (77.61725pt too wide) in paragraph at lines 38--41
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 110.38646pt on input line 41.
+
+<mesh.png, id=3, 526.96875pt x 395.22656pt>
+File: mesh.png Graphic file (type png)
+<use mesh.png>
+Package pdftex.def Info: mesh.png  used on input line 45.
+(pdftex.def)             Requested size: 569.05511pt x 426.8142pt.
+
+Overfull \hbox (77.61725pt too wide) in paragraph at lines 44--47
+ [] 
+ []
+
+<vm_stress.png, id=4, 526.96875pt x 395.22656pt>
+File: vm_stress.png Graphic file (type png)
+<use vm_stress.png>
+Package pdftex.def Info: vm_stress.png  used on input line 51.
+(pdftex.def)             Requested size: 569.05511pt x 426.8142pt.
+
+Overfull \hbox (77.61725pt too wide) in paragraph at lines 50--53
+ [] 
+ []
+
+<principal_near.png, id=5, 526.96875pt x 395.22656pt>
+File: principal_near.png Graphic file (type png)
+<use principal_near.png>
+Package pdftex.def Info: principal_near.png  used on input line 57.
+(pdftex.def)             Requested size: 569.05511pt x 426.8142pt.
+
+Overfull \hbox (77.61725pt too wide) in paragraph at lines 56--59
+ [] 
+ []
+
+<principal_near_max.png, id=6, 526.96875pt x 395.22656pt>
+File: principal_near_max.png Graphic file (type png)
+<use principal_near_max.png>
+Package pdftex.def Info: principal_near_max.png  used on input line 63.
+(pdftex.def)             Requested size: 569.05511pt x 426.8142pt.
+
+Overfull \hbox (77.61725pt too wide) in paragraph at lines 62--65
+ [] 
+ []
+
+[1
+
+{C:/Users/rutvi/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./tot_ingle
+_comp.png (PNG copy)>] [3 <./convergence study.pdf>] [4 <./mesh.png (PNG copy)>
+] [5 <./vm_stress.png (PNG copy)>] [6 <./principal_near.png (PNG copy)>]
+[7 <./principal_near_max.png (PNG copy)>] (AER1403_Project2_report.aux) ) 
+Here is how much of TeX's memory you used:
+ 3241 strings out of 478681
+ 51562 string characters out of 2846535
+ 359869 words of memory out of 3000000
+ 21366 multiletter control sequences out of 15000+600000
+ 403738 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,6n,62p,1238b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Us
+ers/rutvi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb><C:/Users/rutvi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><C:/Users/rutvi/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb><C:/Users/rutvi/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Users/rutvi/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rutvi/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on AER1403_Project2_report.pdf (7 pages, 303283 bytes).
+PDF statistics:
+ 65 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

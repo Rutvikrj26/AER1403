@@ -1,0 +1,13 @@
+syms t c lambda
+f = (348*t) + (13.5*c);
+g = t*((t+c).^(1/3)) - 5.274 == 0; % constraint Eqn for Elastic Indentation
+L = f - lambda * lhs(g); % Lagrangian
+dL_dt = diff(L,t) == 0; % derivative of L with respect to t
+dL_dc = diff(L,c) == 0; % derivative of L with respect to c 
+dL_dlambda = diff(L,lambda) == 0; % derivative of L with respect to lambda
+system = [dL_dt; dL_dc; dL_dlambda]; % system of equations
+[t_val, c_val,lambda_val] = solve(system, [t c lambda], 'Real', true) % solve the system of equations and display the results 
+results_numeric = double([t_val, c_val, lambda_val]) % show results in a vector of data type double
+
+
+%Eqn for Micro-Buckling : t*((t+c)) - 21.428

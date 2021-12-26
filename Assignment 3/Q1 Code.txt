@@ -1,0 +1,57 @@
+%% Background Information
+t = 0.125;
+theta = [0 60 0 30]; % In Degrees
+theta = theta.*(pi/180); % Conversion to Radians - I my system Default is radians
+
+E1 = 131;
+E2 = 9.8;
+G12 = 5.8;
+nu_12 = 0.22;
+
+sl_up = 850;
+sl_down = 700;
+st_up = 40;
+st_down = 160;
+tau = 75;
+
+S = [1/E1 -nu_12/E1 0; -nu_12/E1 1/E2 0; 0 0 1/G12];
+
+Q_local = S^-1;
+
+T = @(x) [(cos(x))^2 (sin(x))^2 2*cos(x)*sin(x); (sin(x))^2 (cos(x))^2 -2*cos(x)*sin(x); -cos(x)*sin(x) cos(x)*sin(x) (cos(x))^2 - (sin(x))^2];
+
+%% 1.) Calculating ABD Matrix
+A = zeros(3);
+B = zeros(3);
+D = zeros(3);
+
+for k = 1:4
+   z_k = (3-k)*0.125;
+   z_k1 = z_k - 0.125;
+   Q_global = ((inv(T(theta(k))))*(Q_local)*(inv(transpose(T(theta(k))))));
+   A = A + 0.125*Q_global;
+   B = B + (0.125*(z_k + z_k1))*Q_global;
+   D = D + (0.125*(z_k^2 + z_k1^2 + z_k*z_k1))*Q_global;
+end
+
+abd = [A B;B D];
+
+fm = [10;3;0;15;0;0];
+e_mat = abd\fm;
+
+%% 2.) Using epsilon matrix for calculations of Stresses
+
+epsilon = e_mat(1:3) + (10^-3*1.5*t)*e_mat(4:6); % z = 1.5 - Mid of the 30 deg Plane from the center layer of composite
+qbar = ((inv(T(theta(4))))*(Q_local)*(inv(transpose(T(theta(4))))));
+sigma_global = qbar*epsilon;
+
+F11 = abs(1/(sl_up*sl_down));
+F22 = abs(1/(st_down*st_up));
+F66 = abs(1/(tau^2));
+F1 = (1/sl_up - abs(1/sl_down));
+F2 = (1/st_up - abs(1/st_down));
+F12 = 0.5*sqrt(F11*F22);
+
+sigma = T(theta(4))*sigma_global
+
+tsai_wu = F11*sigma(1)^2 + F22*sigma(2)^2 + F66*sigma(3)^2 + F1*sigma(1) + F2*sigma(2) + 2*F12*sigma(1)*sigma(2)

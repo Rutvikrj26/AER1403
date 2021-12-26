@@ -1,0 +1,41 @@
+% AER1403 Assignment 8 Q1
+
+x = [0 1 1 0];
+y = [0 0 1 1];
+
+x_disp = [0.02 0.05 0.02 -0.02];
+y_disp = [-0.01 0.02 0.04 0.01];
+
+zeta_vals = -1:0.1:1;
+eta_vals = -1:0.1:1;
+
+x_vals = 0:0.05:1;
+y_vals = 0:0.05:1;
+
+disp_mat_x = zeros(length(zeta_vals),length(eta_vals));
+disp_mat_y = zeros(length(zeta_vals),length(eta_vals));
+
+for i = 1:length(zeta_vals)
+    for j = 1:length(eta_vals)
+
+        zeta = zeta_vals(i);
+        eta = eta_vals(j);
+        
+        N1 = 0.25*(1 - zeta)*(1 - eta);
+        N2 = 0.25*(1 + zeta)*(1 - eta);
+        N3 = 0.25*(1 + zeta)*(1 + eta);
+        N4 = 0.25*(1 - zeta)*(1 + eta);
+
+        inter_disp = [N1 N2 N3 N4]*[x_disp' y_disp'];
+        disp_mat_x(j,i) = inter_disp(1);
+        disp_mat_y(j,i) = inter_disp(2);
+
+    end
+end
+
+[X,Y] = meshgrid(x_vals,y_vals);
+
+contourf(X,Y,disp_mat_x,10,'-.','ShowText','on')
+xlabel('X-Axis')
+ylabel('Y-Axis')
+colorbar

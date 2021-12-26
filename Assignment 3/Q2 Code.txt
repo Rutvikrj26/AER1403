@@ -1,0 +1,27 @@
+theta = [0:1:90]; % In Degrees
+theta = theta.*(pi/180); % Conversion to Radians - I my system Default is radians
+
+sl_up = 850;
+sl_down = 700;
+st_up = 40;
+st_down = 160;
+tau = 75;
+
+F11 = abs(1/(sl_up*sl_down));
+F22 = abs(1/(st_down*st_up));
+F66 = abs(1/(tau^2));
+F1 = (1/sl_up - abs(1/sl_down));
+F2 = (1/st_up - abs(1/st_down));
+F12 = 0.5*sqrt(F11*F22);
+
+max_stress = zeros(90,1);
+
+for i=1:90
+    A = F11*(cos(theta(i)))^4 + F22*(sin(theta(i)))^4 + (F66 + 2*F12)*((cos(theta(i)))^2)*((sin(theta(i)))^2);
+    B = F1*(cos(theta(i)))^2 + F2*(sin(theta(i)))^2;
+    C = -1;
+    s = roots([A, B, C]);
+    max_stress(i) = max(s);
+end
+
+plot(max_stress)
